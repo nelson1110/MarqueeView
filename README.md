@@ -59,6 +59,7 @@ marqueeView.setAdapter(object : MarqueeView.MarqueeViewAdapter(){
         })
 ```
 `Adapter`中各方法的含义：
+
 | 方法名 | 意义 | 
 | - | - |
 | getItemLayout | 决定滚动的内容的布局，当前版本默认内容布局只有一种|
