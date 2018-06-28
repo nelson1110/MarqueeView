@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MarqueeView">
+        <attr name="orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+
+        <attr name="animator_duration"/>
+        <attr name="stay_duration"/>
+        <attr name="reverse_animator" format="boolean"/>
+    </declare-styleable>
+</resources>

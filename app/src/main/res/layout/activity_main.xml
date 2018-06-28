@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.libs.nelson.marqueeviewlib.MarqueeView
+        android:layout_marginTop="20dp"
+        android:id="@+id/marqueeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:orientation="vertical"
+        app:animator_duration="500"
+        />
+
+    <com.libs.nelson.marqueeviewlib.MarqueeView
+        android:layout_marginTop="20dp"
+        android:id="@+id/marqueeView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:orientation="horizontal"
+        app:animator_duration="500"
+        />
+
+    <com.libs.nelson.marqueeviewlib.MarqueeView
+        android:layout_marginTop="20dp"
+        android:id="@+id/marqueeView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:orientation="vertical"
+        app:reverse_animator="true"
+        app:animator_duration="500"
+        />
+
+    <com.libs.nelson.marqueeviewlib.MarqueeView
+        android:layout_marginTop="20dp"
+        android:id="@+id/marqueeView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:orientation="horizontal"
+        app:reverse_animator="true"
+        app:animator_duration="500"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
