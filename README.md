@@ -31,9 +31,10 @@ Add it in your root build.gradle at the end of repositories:
         />
 ```
  `xml`中的一些可用属性
- | 参数名 | 意义 |
- | - | :-: |
- | orientation | 动画滚动方向|
- | animator_duration | 动画时间 |
- | stay_duration | 每个item动画结束后停留的时间 |
- | reverse_animator | 是否反向动画，默认↑或← |
+ 
+ 参数名 | 意义 
+ - | :-
+ orientation | 动画滚动方向
+ animator_duration | 动画时间 
+ stay_duration | 每个item动画结束后停留的时间 
+ reverse_animator | 是否反向动画，默认↑或← 
